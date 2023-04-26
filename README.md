@@ -1,2 +1,2 @@
-# hello-world
-a short description.
+# python
+short notes
