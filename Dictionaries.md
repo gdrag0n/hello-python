@@ -20,10 +20,20 @@ dictionary = {A[i]:B[i] for i in range(n)}
 dictionary = dict(zip(A, B))
 ```
 
+## Ways to create from given lists
+```
+#make sure that
+dic = dict(zip(list1, list2))
+```
+
 ## Ways to sort
 
 1. sort by keys
-```sorted_dic = sorted(dic.items())```
+```
+#reverse to be included if sorting in descending order, with reverse=True
+sorted_dic = sorted(dic.items(), reverse=True/False)
+dic=dict(sorted_dic)
+```
 
 2. sort by values
 ```
@@ -36,3 +46,9 @@ Note:
     it does not return the entire dictionary, but only a list of sorted keys
     
 - lambda reduces speed of execution
+
+
+# Returning keys/values
+```
+return list(dic.values())
+```
