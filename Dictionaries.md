@@ -48,7 +48,12 @@ Note:
 - lambda reduces speed of execution
 
 
-# Returning keys/values
+## Returning keys/values
 ```
 return list(dic.values())
+```
+
+## Dictionaries to remove duplicates
+```
+nums=list(dict.fromkeys(nums))
 ```
